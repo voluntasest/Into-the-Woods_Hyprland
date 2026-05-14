@@ -1,0 +1,15 @@
+[global]
+width=200
+height=70
+notification_limit=5
+origin=top-right
+offset= (10, 10)
+progress_bar=false
+separator_height=3
+font="Ubuntu-Nerd-Font 8"
+format="<b>%a</b>\n %s: %b"
+icon_theme="Papirus-Dark"
+corner_radius=4
+background="#1d1e0cff"
+foreground="#689d6aff"
+frame_color="#394c17ff"

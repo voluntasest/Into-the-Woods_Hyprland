@@ -1,0 +1,21 @@
+[font]
+normal = { family = "Ubuntu Mono Nerd Font", style = "Regular" }
+
+
+[colors.primary]
+foreground = "#e2e2d3"
+background = "#1d1e0c"
+
+[colors.normal]
+black = "#232323"
+red = "#ba2b0e"
+green = "#394c17"
+yellow = "#d79921"
+blue = "#015493"
+magenta = "#785291"
+cyan = "#689d6a"
+white = "#a89984"
+
+[colors.bright]
+cyan ="#92d194"
+white = "#ede3bd"

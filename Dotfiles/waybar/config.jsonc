@@ -1,0 +1,36 @@
+{
+	"height": 30 ,
+	"modules-left": ["hyprland/workspaces"],
+	"modules-center": ["clock"],
+	"modules-right": ["mpd", "hyprland/language", "pulseaudio"],
+        "mpd": {
+		"interval": 5,
+		"format": "  {filename}",
+		"format-stopped" : "Player stopped",
+		"format-disconnected": "",
+		"format-paused": " {filename}",
+		"on-click": "mpc pause",
+		"on-click-right": "mpc play"
+		
+			
+	},	
+	"hyprland/language": {
+		"format-en": "󰗊 en",
+		"format-ru": "󰗊 ru"
+	},
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+		"format-bluetooth": "{volume}% {icon}",
+		"format-muted": "",
+		"format-icons": {
+			"default": ["", ""]
+		},
+		"scroll-step": 1
+	},
+	"margin": 5,
+	"hyprland/workspaces": {
+	       "persistent-workspaces": {
+            		 "*": 5
+      		 }
+	}
+}

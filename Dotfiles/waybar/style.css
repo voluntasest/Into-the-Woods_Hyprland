@@ -1,0 +1,44 @@
+* {
+	font-family: Ubuntu Nerd Font;
+	font-size: 12px
+}
+
+window#waybar{	
+	background-color: #394c17;
+	color: #7e8e60;
+	border-radius: 3px;	
+}
+
+button:hover {
+	box-shadow: none; 
+	text-shadow: none; 
+        background: #6b823e; 
+	transition: none; 
+	border-color: transparent;
+}
+
+#workspaces button {
+	margin: 1px;
+	padding: 1px;
+	color: #7e8e60;
+}
+
+#workspaces button.active  {
+	color: #ede3bd;
+}
+
+#language {
+	margin-right: 6px;
+}
+
+#pulseaudio {
+	margin-right: 6px;
+}
+
+#mpd {
+	margin-right: 6px;
+}
+
+#mpd.disconnected {
+	color: #ba2b0e;	
+}
