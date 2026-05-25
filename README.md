@@ -2,6 +2,8 @@
 
 ## Appearance
 ![screenshot](screenshot.png)
+![screenshot](screenshot2.png)
+![screenshot](screenshot3.png)
 
 ## Description
 A try to make a minimal hyprland rice with a self-made colorsheme "Into the Woods".
